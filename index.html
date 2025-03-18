@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 230 - Web Frontend Development - Blessing Aniedi Asukwo course assignment portal">
+        <meta name="author" content="Blessing Aniedi Asukwo">
+        <title>WDD 230 - Web Frontend Development - Blessing Aniedi Asukwo</title>
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <script src="scripts/getdates.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="box-header">
+                <img src="images/my-image.webp" alt="Logo">
+                <span>Blessing Aniedi Asukwo</span>
+            </div>
+            <nav>
+                <div class="rockstar">
+                    <a class="current-menu-item" href="#">Home</a>
+                    <a href="#">Chamber</a>
+                    <a href="#">Site Plan</a>
+                    <a href="#">Form</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>WDD 230: Web Frontend Development</h1>
+            <div class="parent">
+                <section class="card">
+                    <h2>Learning Activities</h2>
+                    <div id="links-container"></div>
+                    <ul>
+                        <li>Week 01: <a href="week01/holygrail.html">Grail </a>|<a href="week01/media-query.html">Media Query </a>
+                        <li>Week 02: <a href="#"></a>
+                        <li>Week 03: <a href="#"></a>
+                        <li>Week 04: <a href="#"></a> 
+                        <li>Week 05: <a href="#"></a>
+                    </ul>
+                </section>
+                <section class="card">
+                    <h2>Information</h2>
+                    <ul class="info">
+                        <figure>
+                            <img id="weather-icon" src=" " alt=" Weather" height="50" width="50"><span id="current-temp"> </span> - <figcaption></figcaption>
+                        </figure>
+                        <li><a>Number of Visits: <span class="visits"></span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>© <span id="currentyear"></span> Blessing Aniedi Asukwo. Nigeria.</p>
+            <p id="lastModified"></p>
+        </footer>
+
+        <script src="scripts/getDates.js"></script>
+
+    </body>
+
 </html>
