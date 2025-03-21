@@ -208,16 +208,25 @@ footer {
     
 }
 
-#darkMode {
+
+main img {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #333;
+    box-shadow: 0 0 15px #777;
+}
+
+
+#mode {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    font-size: 3rem;
     cursor: pointer;
-    width: 32px;
-    height: 32px;
-    background-color: white;
-    border: #FBA834;
+    font-size: 2rem;
 }
+
+
 
 .hero picture {
     width: 100%;
