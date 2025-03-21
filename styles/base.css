@@ -30,7 +30,15 @@ header span {
 
 }
 
-/* */
+#hamburger::before {
+    content: "=";
+    padding: 16px;
+    
+}
+
+.botton #hamburger.open::before {
+    content: "x";
+}
 
 h2.dark {
     color: white;
@@ -108,7 +116,7 @@ main h1 {
 
 }
 
-#myButton {
+.hamburger {
     font-size: 2rem;
     background: none;
     border: none;
@@ -116,8 +124,10 @@ main h1 {
     cursor: pointer;
     width: 100%;
     text-align: left;
-    padding: 4px;
-
+    position: absolute;
+    padding-top: 200px;
+    
+    
 }
 
 .current-menu-item {
@@ -126,9 +136,9 @@ main h1 {
     font-weight: 700;
 }
 
-.rockstar {
+/* .rockstar {
     display: none;
-}
+} */
 
 nav {
     text-align: center;
@@ -180,11 +190,12 @@ footer {
 }
 
 .rockstar.open {
-    display: block;
+    display: flex;
 }
 
 .rockstar {
-    display: none;
+    display: block;
+    
 }
 
 #darkMode {
@@ -230,13 +241,10 @@ footer {
     font-family: "Roboto", serif;
 }
 
-/* .maps {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
 
 
-} */
+
+
+
+
+
