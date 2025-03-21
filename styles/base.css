@@ -30,13 +30,26 @@ header span {
 
 }
 
-#hamburger::before {
-    content: "=";
-    padding: 16px;
+
+#myButton{
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    color: white;
     
 }
 
-.botton #hamburger.open::before {
+#myButton::before {
+    content: "=";
+    padding: 16px;
+    
+     
+}
+
+#myButton.open::before {
     content: "x";
 }
 
@@ -94,7 +107,9 @@ figure {
 ul {
     list-style-type: none;
     font-weight: 600;
+
 }
+
 
 .card h2 {
     background-color: #333A73;
@@ -116,35 +131,30 @@ main h1 {
 
 }
 
-.hamburger {
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    position: absolute;
-    padding-top: 200px;
-    
-    
-}
+
 
 .current-menu-item {
     background-color: #333A73;
     color: #FBA834;
     font-weight: 700;
+
 }
 
-/* .rockstar {
+ul.rockstar {
     display: none;
-} */
+    list-style-type: none;
+}
+
+
 
 nav {
     text-align: center;
     background-color: #333A73;
 
 }
+
+
+
 
 nav a {
     display: block;
@@ -190,11 +200,11 @@ footer {
 }
 
 .rockstar.open {
-    display: flex;
+    display: block;
 }
 
 .rockstar {
-    display: block;
+    display: none;
     
 }
 

@@ -14,11 +14,8 @@
     .rockstar.open {
         display: flex;
         flex-direction: row;
-
-
     }
-
-
+    
     nav a {
         flex: 1;
     }
@@ -29,9 +26,8 @@
 
     }
 
-    .hamburger {
-            display: none;
-            visibility: hidden;
-        
+    #myButton {
+        display: none;
     }
+
 }
