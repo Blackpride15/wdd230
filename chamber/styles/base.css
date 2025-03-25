@@ -183,7 +183,7 @@ footer {
     padding: 12px;
 }
 
-*/ .main-join form div {
+.main-join form div {
     margin-bottom: 20px;
 }
 
@@ -222,8 +222,6 @@ footer {
     gap: 20px;
 }
 
-/* Add your CSS styles for grid and list views here */
-/* Example styles for grid view */
 #display {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
