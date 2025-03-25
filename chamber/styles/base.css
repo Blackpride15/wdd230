@@ -139,7 +139,7 @@ nav {
 .parent {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #EBA352;
+    background-color: #222831;
     color: white;
     padding: 10px;
     border: 1px #222831;
