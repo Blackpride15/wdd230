@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    gap: 20px;
+
+}
+
+img {
+    animation: fade 6s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+footer {
+    text-align: center;
+}
