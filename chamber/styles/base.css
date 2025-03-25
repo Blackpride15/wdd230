@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Montserrat";
+}
+
+main,
+footer {
+    padding: 10px;
+}
+
+.container {
+    color: white;
+    padding-left: 8px;
+}
+
+.container img {
+    width: 600px;
+
+    object-fit: cover;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(34, 40, 49, 0.5),
+            #EBA352),
+        url('#');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222831;
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-button:hover {
+    background-image: linear-gradient(to right, #EBA352, #222831);
+    opacity: 1;
+
+}
+
+
+
+nav a {
+
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-color: #222831;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+}
+
+nav a:hover {
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #EBA352;
+
+
+}
+
+nav {
+    background-color: #222831;
+}
+
+.navheader {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.logo {
+    display: inline-block;
+    width: 150px;
+    object-fit: contain;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#myButton::before {
+    content: "=";
+    padding: 16px;
+}
+
+#myButton.open::before {
+    content: "x";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: 4px;
+
+}
+
+.Menu {
+    display: none;
+}
+
+.Menu.open {
+    display: block;
+
+}
+
+.logo1 {
+    display: none;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #EBA352;
+    color: white;
+    padding: 10px;
+    border: 1px #222831;
+
+
+}
+
+main {
+    background-color: #222831;
+}
+
+.ads {
+    color: white;
+    text-align: center;
+}
+
+.title-member {
+    color: #EBA352;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+
+.main-join {
+
+    padding: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+.h1-join {
+    vertical-align: middle;
+}
+
+.main-join input {
+    padding: 12px;
+}
+
+*/ .main-join form div {
+    margin-bottom: 20px;
+}
+
+.main-join form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-join form input[type="text"],
+.main-join form input[type="email"],
+.main-join form input[type="tel"],
+.main-join form select,
+.main-join form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.main-join form textarea {
+    resize: vertical;
+    /* Allow vertical resizing of textarea */
+}
+
+.member-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Add your CSS styles for grid and list views here */
+/* Example styles for grid view */
+#display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#display section {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#display img {
+    width: 100%;
+    height: auto;
+}
+
+#display h3 {
+    margin-top: 10px;
+}
+
+#display p {
+    margin: 5px 0;
+}
