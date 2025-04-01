@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: "Montserrat";
+    font-family: "Nunito";
 }
 
 main,
@@ -12,13 +12,25 @@ footer {
 
 .container {
     color: white;
-    padding-left: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
+
+
+
 
 .container img {
     width: 600px;
-
     object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
 }
 
 .hero-image {
