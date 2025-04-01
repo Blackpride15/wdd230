@@ -261,5 +261,11 @@ main img {
     font-family: "Roboto", serif;
 }
 
-
+.maps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
 
