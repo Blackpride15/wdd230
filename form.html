@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="WDD 230 - Web Frontend Development - Blessing Aniedi Asukwo - form page">
+        <meta name="author" content="Blessing Aniedi Asukwo">
+        <meta property="og:title" content="My city">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.carnival.crossriverstate.gov.ng/">
+        <meta property="og:url" content="https://blackpride15.github.io/wdd230/">
+        <title> Blessing Aniedi Asukwo - WDD 230 - Web Frontend Development</title>
+        <link rel="stylesheet" href="styles/form.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+        <script src="scripts/getdates.js" defer></script>
+        <script src="scripts/script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="box-header">
+                <img src="images/my-image.webp" alt="Logo">
+                <span>Blessing Aniedi Asukwo</span>
+            </div>
+            <nav>
+                <button id="myButton"></button>
+                <div class="rockstar">
+                    <a href="index.html">Home</a>
+                    <a href="chamber/index.html">Chamber</a>
+                    <a href="week01/chamber-site-plan.html"> Site Plan</a>
+                    <a class="current-menu-item" href="#">Form</a>
+                </div>
+            </nav>
+            <div id="mode"> 🕶️ </div>
+        </header>
+        <main>
+            <h1>Form Page</h1>
+            <div class="typebox">
+              <form action="record.html" method="get">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required>
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+\-]+@byupathway.edu">
+                </div>
+                <div>
+                    <label for="page-rating">Page Rating:</label>
+                    <input type="range" id="page-rating" name="page-rating" min="1" max="10" step="1">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        </main>
+        <footer>
+            <p>© <span id="currentyear"></span> Blessing Aniedi Asukwo. Nigeria.</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/script.js"></script>
+    </body>
+
+</html>

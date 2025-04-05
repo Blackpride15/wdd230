@@ -1,0 +1,40 @@
+:root {
+    --form-padding: 20px;
+    --form-label-width: 120px;
+    --form-input-margin: 10px;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.typebox{
+    padding: 20px;
+    margin: 20px;
+
+    
+}
+
+input,
+button {
+    margin-bottom: var(--form-input-margin);
+    padding: 12px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FBA834;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #bb6f04;
+}
