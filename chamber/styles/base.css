@@ -181,8 +181,8 @@ footer {
 
 .main-join {
 
-    padding: 80px;
-    text-align: center;
+    padding: 60px;
+    text-align: left;
     color: white;
 
 }
@@ -202,6 +202,7 @@ footer {
 .main-join form label {
     display: block;
     margin-bottom: 5px;
+    
 }
 
 .main-join form input[type="text"],
@@ -256,4 +257,18 @@ footer {
 
 #display p {
     margin: 5px 0;
+}
+
+button {
+    background-color: #FBA834;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+button:hover {
+    background-color: #bb6f04;
 }
