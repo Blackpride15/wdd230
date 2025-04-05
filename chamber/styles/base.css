@@ -272,3 +272,8 @@ button {
 button:hover {
     background-color: #bb6f04;
 }
+
+.membership-benefits{
+    color: #ffffff;
+    padding-left: 30px;
+}
