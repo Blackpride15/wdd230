@@ -277,3 +277,8 @@ button:hover {
     color: #ffffff;
     padding-left: 30px;
 }
+
+.thankyou {
+    background-color: #f8d8ab;
+    color: #1a1919;
+}
