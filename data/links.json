@@ -17,11 +17,11 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url": "week02/design-principles.html",
+                    "url": "week02/design.html",
                     "title": "Design Principles"
                 },
                 {
-                    "url": "week02/css-combinators.html",
+                    "url": "week02/bom.html",
                     "title": "CSS Combinators"
                 }
             ]
@@ -30,7 +30,7 @@
             "week": "Week 3",
             "links": [
                 {
-                    "url": "week03/images.html",
+                    "url": "week03/responsive-images.html",
                     "title": "Responsive Images"
                 },
                 {
