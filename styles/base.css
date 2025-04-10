@@ -91,13 +91,13 @@ figure {
     text-align: center;
 }
 
-#links-container {
+#learning-activities {
     list-style: none;
     /* Remove default list styles */
     padding: 0;
 }
 
-#links-container li {
+#learning-activities li {
     display: inline;
     /* Display list items inline */
     margin-right: 10px;
