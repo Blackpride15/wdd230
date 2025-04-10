@@ -93,7 +93,8 @@ figure {
 
 #learning-activities {
     list-style: none;
-    padding: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
 }
 
 #learning-activities li {
@@ -101,6 +102,10 @@ figure {
     /* Display list items inline */
     margin-right: 10px;
     /* Add some spacing between list items */
+}
+
+#learning-activities div{
+    height:50px;
 }
 
 ul {
@@ -151,8 +156,6 @@ nav {
     background-color: #333A73;
 
 }
-
-
 
 
 nav a {
@@ -267,3 +270,4 @@ main img {
     justify-content: center;
     padding: 8px;
 }
+
