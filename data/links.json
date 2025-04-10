@@ -1,0 +1,69 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "mQueries"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design-principles.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "week02/css-combinators.html",
+                    "title": "CSS Combinators"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "week04/form-start.html",
+                    "title": "Form Basics"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "week05/bom.html",
+                    "title": "Book of Mormon DOM"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
