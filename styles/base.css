@@ -93,8 +93,7 @@ figure {
 
 #learning-activities {
     list-style: none;
-    /* Remove default list styles */
-    padding: 0;
+    padding: 16px;
 }
 
 #learning-activities li {
@@ -126,8 +125,8 @@ main h1 {
 }
 
 .card ul {
-    padding: 10px;
-    margin-left: 10px;
+    padding-left: 16px;
+    
 
 }
 
@@ -268,4 +267,3 @@ main img {
     justify-content: center;
     padding: 8px;
 }
-
