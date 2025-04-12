@@ -15,7 +15,7 @@ function displayMembers(members) {
         card.classList.add("member-card");
 
         card.innerHTML = `
-            <img src="images/${member.image}" alt="${member.name} logo">
+            <img src="images/${member.image}" alt="${member.name}">
             <p>${member.name}</p>
             <p>${member.address}</p>
             <p>${member.phone}</p>
