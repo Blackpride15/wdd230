@@ -67,4 +67,13 @@
     }
 
 
+    #members.list-view section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 4px;
+    border-radius: 2px;
+    
+    }
+
 }

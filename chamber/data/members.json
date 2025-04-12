@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Naija AgroTech",
+            "address": "12 Farmland Avenue, Kaduna, Nigeria",
+            "phone": "+234 701 234 5678",
+            "website": "https://naijaagrotech.ng",
+            "image": "naijaagrotech.png",
+            "membership": "Gold",
+            "description": "Innovative agricultural solutions for Nigerian farmers."
+        },
+        {
+            "name": "Lagos Brew Café",
+            "address": "45 Bourdillon Road, Ikoyi, Lagos",
+            "phone": "+234 803 456 7890",
+            "website": "https://lagosbrew.ng",
+            "image": "lagosbrew.png",
+            "membership": "Silver",
+            "description": "Premium Nigerian coffee and tea blends."
+        },
+        {
+            "name": "SureHealth Clinics",
+            "address": "78 Oba Akran Avenue, Ikeja, Lagos",
+            "phone": "+234 812 345 6789",
+            "website": "https://surehealth.ng",
+            "image": "surehealth.png",
+            "membership": "Bronze",
+            "description": "Accessible and affordable healthcare services."
+        },
+        {
+            "name": "Jollof Delight Catering",
+            "address": "22 Unity Street, Wuse II, Abuja",
+            "phone": "+234 909 888 7766",
+            "website": "https://jollofdelight.ng",
+            "image": "jollofdelight.png",
+            "membership": "Gold",
+            "description": "Authentic Nigerian dishes for events and homes."
+        },
+        {
+            "name": "Naija Solar Hub",
+            "address": "9 Sunshine Crescent, Enugu",
+            "phone": "+234 806 777 8899",
+            "website": "https://naijasolarhub.ng",
+            "image": "naijasolarhub.png",
+            "membership": "Silver",
+            "description": "Affordable solar energy for homes and businesses."
+        },
+        {
+            "name": "Abuja Tech Innovators",
+            "address": "55 Innovation Drive, Gwarinpa, Abuja",
+            "phone": "+234 705 112 3344",
+            "website": "https://abujatech.ng",
+            "image": "abujatech.png",
+            "membership": "Gold",
+            "description": "Empowering local startups with tech tools and training."
+        },
+        {
+            "name": "CleanRide Logistics",
+            "address": "31 Ekenwan Road, Benin City",
+            "phone": "+234 814 555 6677",
+            "website": "https://cleanride.ng",
+            "image": "cleanride.png",
+            "membership": "Bronze",
+            "description": "Eco-conscious delivery and transport services across Nigeria."
+        }
+    ]
+}
