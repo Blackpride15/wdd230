@@ -41,3 +41,13 @@ function displayVisitMessage() {
 
 // Call the function when the page loads
 displayVisitMessage();
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const banner = document.getElementById("meet-banner");
+    const today = new Date().getDay(); 
+
+    if (today >= 1 && today <= 3) { // Monday (1), Tuesday (2), Wednesday (3)
+        banner.style.display = "block";
+    }
+});

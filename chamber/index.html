@@ -45,10 +45,13 @@
                 </div>
             </nav>
             <div class="hero-image">
+                
                 <div class="hero-text">
                     <h1> Calabar - Chamber of Commerce</h1>
+                    <div id="meet-banner" class="meet-banner"> 📣 Join us for a Chamber of Commerce Meet & Greet – Wednesday at 7:00 PM!
+                    </div>
                     <p>We bring business owners together</p>
-                    <button class="hero-button">Join the Chamber Now</button>
+                    <button class="hero-button" onclick="window.location.href='join.html'"> Join the Chamber Now </button>
                 </div>
             </div>
         </header>
@@ -57,27 +60,39 @@
                     <section class="events">
                         <h2>Events</h2>
                         <hr>
-                        <p></p>
+                        <p>
+                            <strong>Calabar Business Meetup – July 20, 2025:</strong> Join local business leaders for a networking session at
+                            the Marina Resort. Discuss strategies, share experiences, and explore partnerships.<br><br>
+                            <strong>Women in Business Conference – July 27, 2025:</strong> Empowering women entrepreneurs. Held at Tinapa
+                            Knowledge City, with guest speakers from across Nigeria.<br><br>
+                            <strong>Monthly Training Workshop – August 5, 2025:</strong> Free digital marketing and customer service training
+                            for small businesses. Register now at our Chamber office or online.
+                        </p>
                     </section>
-                    <section>
-                        <h2>Weather</h2>
-                        <hr>
-                        <p></p>
-                    </section>
+                <section class="weather">
+                    <h2>Weather</h2>
+                    <hr>
+                    <div id="forecast-container"></div>
+                </section>
+
                 </div>
                 <h1 class="title-member">Member Spotlights</h1>
+                <section class="spotlight"></section>
                 <section class="ads">
                     <div>
-                        <h2> Services we offer </h2>
-                        <p></p>
+                        <h2>Services we offer</h2>
+                       
+                        <p>We support local businesses with marketing, networking events, and training programs.</p>
                     </div>
                     <div>
-                        <h2> Business events for the month </h2>
-                        <p></p>
+                        <h2>Business events for the month</h2>
+                       
+                        <p>Join our April Mixer on the 25th and don't miss the Branding Workshop on the 29th!</p>
                     </div>
                     <div>
-                        <h2> Opportunities are available </h2>
-                        <p></p>
+                        <h2>Opportunities are available</h2>
+                        
+                        <p>Looking to grow? Explore grants, sponsorships, and collaboration openings today.</p>
                     </div>
                 </section>
             </main>
@@ -89,7 +104,8 @@
         </footer>
         <script src="scripts/getDates.js"></script>
         <script src="scripts/script.js"></script>
-
+        <script src="scripts/weather.js"></script>
+        <script src="scripts/spotlight.js"></script>
     </body>
 
 </html>

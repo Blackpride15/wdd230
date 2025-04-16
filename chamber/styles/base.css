@@ -166,7 +166,9 @@ main {
 .ads {
     color: white;
     text-align: center;
+    padding: 50px;
 }
+
 
 .title-member {
     color: #EBA352;
@@ -344,3 +346,70 @@ button:hover {
 }
 
 
+#forecast-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+}
+
+.forecast-day {
+    text-align: left;
+    border: 1px solid #363533;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #040f17;
+}
+
+.forecast-day img {
+    width: 60px;
+    height: 60px;
+}
+
+.meet-banner {
+    background-color: #EBA352;
+    color: #222831;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    display: none;
+}
+
+.events p{
+    background-color: #040f17;
+    border-radius: 10px;
+    padding: 60px;
+    margin-top: 26px;
+}
+
+
+.spotlight {
+    background-color: #393e46;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    
+}
+
+.spotlight img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.spotlight a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #EBA352;
+    color: #222831;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
