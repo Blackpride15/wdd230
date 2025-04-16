@@ -51,3 +51,15 @@ document.addEventListener("DOMContentLoaded", function () {
         banner.style.display = "block";
     }
 });
+
+
+// Get current date and time
+const timestampField = document.querySelector("#timestamp");
+const now = new Date();
+
+// Format as a readable string (e.g., YYYY-MM-DD HH:MM:SS)
+const formattedDateTime = now.toISOString(); // Or customize your own format if needed
+
+if (timestampField) {
+    timestampField.value = formattedDateTime;
+}
